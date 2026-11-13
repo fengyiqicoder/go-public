@@ -51,6 +51,6 @@ python3 skills/go-public/share.py try tests/example-workflow.json
 
 ## Privacy
 
-To run the AI steps, the page and what visitors type go to [OneTag AI](https://onetagai.com). Prompts, inputs and answers are not stored. See https://onetagai.com/privacy.
+Publishing sends the page you built to [OneTag AI](https://onetagai.com), which hosts it until you delete it. When visitors press Run, their input goes to OneTag AI for the AI steps; prompts, inputs and answers are not stored. No personal data is collected about you or your visitors. See https://onetagai.com/privacy.
 
 MIT licence. Built by [OneTag AI](https://onetagai.com).
