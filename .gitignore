@@ -1,0 +1,5 @@
+__pycache__/
+.go-public.json
+.DS_Store
+# internal server notes, not public
+docs/

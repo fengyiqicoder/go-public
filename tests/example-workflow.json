@@ -1,0 +1,47 @@
+{
+  "title": "Meeting notes → follow-up email",
+  "description": "Paste rough notes from a meeting. Get the decisions, the owners, and a short follow-up email you can send.",
+  "inputs": [
+    {
+      "id": "notes",
+      "label": "Your meeting notes",
+      "type": "textarea",
+      "placeholder": "Messy is fine…"
+    },
+    {
+      "id": "tone",
+      "label": "Tone",
+      "type": "select",
+      "options": [
+        "Friendly",
+        "Formal",
+        "Short and direct"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "facts",
+      "prompt": "From these meeting notes, list: 1) decisions, 2) action items as 'owner — task — due date' (write 'no date' if none), 3) open questions. Use only what the notes say. Plain text, no Markdown.",
+      "input": "{{notes}}",
+      "show": true,
+      "label": "What was decided"
+    },
+    {
+      "id": "email",
+      "prompt": "Write a follow-up email to the meeting attendees in a {{tone}} tone. Under 150 words. Include every action item with its owner. No subject line placeholder text; start with 'Subject:'. Plain text, no Markdown.",
+      "input": "{{facts}}",
+      "show": true,
+      "label": "Follow-up email"
+    }
+  ],
+  "examples": [
+    {
+      "label": "Product sync",
+      "values": {
+        "notes": "sync w/ ana, raj, me. launch moved to dec 2 bc payments bug. raj fixes bug by fri. ana redo pricing page copy, no date. q: do we email waitlist before or after?",
+        "tone": "Friendly"
+      }
+    }
+  ]
+}
