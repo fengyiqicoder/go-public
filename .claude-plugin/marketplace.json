@@ -1,0 +1,16 @@
+{
+  "name": "go-public",
+  "owner": {
+    "name": "OneTag AI",
+    "url": "https://onetagai.com"
+  },
+  "plugins": [
+    {
+      "name": "go-public",
+      "source": "./",
+      "description": "Turn a workflow you ran with your AI into a web page anyone can open and use, with no sign-up and no API key for visitors, and publish it to a public link.",
+      "version": "0.1.0"
+    }
+  ],
+  "description": "Turn a workflow you ran with your AI into a web page anyone can open and use, with no sign-up and no API key for visitors, and publish it to a public link."
+}

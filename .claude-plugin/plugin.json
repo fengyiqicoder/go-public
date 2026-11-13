@@ -1,0 +1,23 @@
+{
+  "name": "go-public",
+  "displayName": "Go Public",
+  "description": "Turn a workflow you ran with your AI into a web page anyone can open and use, with no sign-up and no API key for visitors, and publish it to a public link.",
+  "version": "0.1.0",
+  "author": {
+    "name": "OneTag AI",
+    "url": "https://onetagai.com"
+  },
+  "homepage": "https://github.com/fengyiqicoder/go-public",
+  "repository": "https://github.com/fengyiqicoder/go-public",
+  "license": "MIT",
+  "keywords": [
+    "share",
+    "publish",
+    "workflow",
+    "web-page",
+    "no-signup",
+    "no-backend",
+    "ai-tools",
+    "prompt"
+  ]
+}

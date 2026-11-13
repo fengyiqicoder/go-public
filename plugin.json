@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "go-public",
+  "description": "Turn a workflow you ran with your AI into a web page anyone can open and use, with no sign-up and no API key for visitors, and publish it to a public link.",
+  "version": "0.1.0",
+  "keywords": [
+    "share",
+    "publish",
+    "workflow",
+    "web-page",
+    "no-signup",
+    "no-backend",
+    "ai-tools",
+    "prompt"
+  ],
+  "author": {
+    "name": "OneTag AI",
+    "url": "https://onetagai.com"
+  },
+  "homepage": "https://github.com/fengyiqicoder/go-public",
+  "repository": "https://github.com/fengyiqicoder/go-public",
+  "license": "MIT",
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/go-public/"
+      ]
+    }
+  }
+}
