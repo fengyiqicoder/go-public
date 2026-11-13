@@ -25,6 +25,33 @@
       "skills": [
         "./skills/go-public/"
       ]
+    },
+    "com.openai": {
+      "interface": {
+        "displayName": "Go Public",
+        "shortDescription": "Share a workflow as a web page",
+        "longDescription": "Turn a workflow you just ran with the AI (a prompt, or a few prompts in a row, that take some input and produce a result) into a single web page anyone can open and use, and publish it to a public link. Visitors fill in the inputs, press Run and get the result; they need no account and no API key.\n\nHow it works: the skill writes the workflow down from the conversation (inputs, AI steps, outputs) and asks you to confirm it, runs a made-up example through the real AI to check the output, builds one HTML file and publishes it. Edit and publish again to update the same link, or take the page down with one command.\n\nFor: anyone who got a prompt-based tool working and wants to hand it to people who don't use an AI assistant, such as a team, clients or friends.\n\nLimits: each page has a free daily AI allowance and a per-visitor rate limit. Pages run in a sandbox with no outside requests except the AI call, no forms that post anywhere, and no logins, payments or storage. Pages that ask for passwords, card numbers or codes are refused. AI calls run on OneTag AI; prompts, inputs and answers are not stored.",
+        "developerName": "OneTag AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Publish a workflow as a public web page",
+          "Update or take down a published page"
+        ],
+        "websiteURL": "https://github.com/fengyiqicoder/go-public",
+        "supportURL": "https://github.com/fengyiqicoder/go-public/issues",
+        "privacyPolicyURL": "https://onetagai.com/privacy",
+        "defaultPrompt": [
+          "Go public: turn the workflow we just ran into a page others can use.",
+          "Make this prompt a shareable tool my team can open without signing up."
+        ],
+        "brandColor": "#0B5FFF",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "This plugin does not sell products or process payments."
+      }
     }
   }
 }
